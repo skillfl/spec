@@ -1,0 +1,142 @@
+/Professional profile management
+
+/Stackshare
+    https://stackshare.io
+    "A web 2.0 social network based around technology stacks."
+    Stack profiles
+        https://stackshare.io/posts/introducing-the-new-stack-profile
+    opinion:
+        "The model is flawed because it is strongly focused on technology 
+        stacks. There is some recognition of this and an attempt to include
+        other technical skills.
+        
+        It hints at something that we want to see and is gaining popularity
+        because of that but doesnt quite hit the mark.
+
+        The web 2.0 model also contributes to fragmentation."
+
+/SkillFL
+    aka: Skill Formatting Language
+
+/Europass
+    https://en.wikipedia.org/wiki/Europass
+    "Europass is a European Union (Directorate General for 
+    Education and Culture) initiative to increase transparency 
+    of qualification and mobility of citizens in Europe.[1] 
+    It aims to make a person's skills and qualifications 
+    clearly understood throughout Europe (including the 
+    European Union, European Economic Area and EU 
+    candidate countries).
+
+    The five Europass documents are the Curriculum Vitae, 
+    Language Passport, Europass Mobility, 
+    Certificate Supplement, and Diploma Supplement, 
+    sharing a common brand name and logo. Since 2012 
+    individuals have been able to assemble all Europass documents 
+    in the European Skills Passport"
+
+/Resume management tools
+
+    JSON Resume
+        aka: JRS
+        https://github.com/jsonresume
+        definition:
+            "An open source JSON toolset for modelling a resume."
+        public:
+            "Illustrates a desire to imporove upon the CV. Illustrates that
+            some structured schema data aspect is important. 
+
+            But it is a model for a CV and a CV is a very flawed 
+            model. Its also intended to be read by humans (has themes 
+            front and centre)."
+
+    h-Resume
+        http://microformats.org/wiki/h-resume
+        "h-resume is a simple, open format for publishing resumes and 
+        CVs on on the web. h-resume is one of several open microformat 
+        draft standards suitable for embedding data in HTML."
+
+    hackmyresume
+        https://www.npmjs.com/package/hackmyresume
+        "Create polished résumés and CVs in multiple formats from 
+        your command line or shell. Author in clean Markdown and JSON, 
+        export to Word, HTML, PDF, LaTeX, plain text, and other 
+        arbitrary formats. Fight the power, save trees. Compatible 
+        with FRESH and JRS resumes."
+
+    FRESH
+        https://github.com/fresh-standard/fresh-resume-schema
+        "A rational schema for your résumé or CV. Based on FRESH. The 
+        FRESH résumé schema is an open source, standards-friendly, 
+        JSON/YAML-driven format for résumé / CVs and other employment 
+        artifacts."
+
+    Skills management tools/SkillSet
+        https://github.com/Jac21/SkillSet
+        "Skill visualisation tool takes CSV file of skills"
+        
+    LaTeX Resume Generator
+        https://latexresu.me/
+
+    cv.me
+        https://cv.me/
+
+
+    // Hack my job hunt
+    // "A curated list of tech solutions to help job hunt."
+    // https://www.producthunt.com/@gabriel__lewis/collections/hack-your-job-search
+
+
+    Kickresume
+        https://www.kickresume.com/en/
+        
+
+/Resume
+    aka: Resume [en-US]
+    aka: CV [en-GB]
+    aka: Lebenslauf [de-DE]  
+    https://en.wikipedia.org/wiki/R%C3%A9sum%C3%A9
+    Disadvantages
+        Cultural conventions vary
+            https://www.quora.com/How-do-resumes-and-CVs-differ-from-country-to-country
+            "The CV has different conventions in different countries. 
+            There may even be differing conventions between industries. 
+            A CV may contain a variety of personal information.
+            
+            It is also biased toward practice contexts rather than capabilities. 
+            These practice contexts are used as a proxy to infer qualities and 
+            capabilities. For example, having a good company on your CV is an 
+            obvioius example. This may or may not be a good proxy for quality.
+
+            If you have a Google or some other well known brand on your CV then 
+            it is easy for the reader to infer. What if you have some lesser known
+            organisation on your CV, how does one infer from that.
+            
+            Those beginning their career face the challenge of having few practice 
+            contexts. Those later in their career face having too many."
+
+        Tends to homogenise the subject
+            "The CV to homogeonise. Because of its
+            traditional human processing pipeline, there is an imperative to be
+            brief. This tends toward homogeneity.
+
+            The CV is an artifact that is riddled with cultural conventions
+            that make it unsuitable for modelling professional profiles in 
+            the technology industry.
+
+            Also it is very much a public facing document intended to operate in 
+            a very sensitive context and so by convention it is only able to contain
+            sanitised information. This further homogenise.
+            
+            The CV is a tool from simpler context when careers were less diverse.
+            When skills were less diverse and less volatile. Skills in the technology
+            industry are very fast moving and this is an important feature of the 
+            industry."
+        Exposes sensitive personal information
+    Advantages
+        "It is the dominant paradigm."
+        
+/The challenges of modelling skills
+    Skills can be highly dynamic
+    Skills can be highly unique
+    Skills can be difficult to measure

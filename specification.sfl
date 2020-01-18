@@ -1,0 +1,243 @@
+/SkillFL
+    /Specification v0.1
+        /Observations
+            /Increasing entropy
+                /As your knowledge of a topic grows 
+                    the amount of stuff you know grows 
+                /We respond to this with abstractions 
+                    /eg
+                        /In programming
+                            /If statements 
+                            /While statements
+                            /Switch statements 
+                            /etc 
+                                /Become abstracted to the topic flow control or conditional statements
+            /Indentation becomes unwieldy quite quickly 
+                /Signal to refactor to a better abstraction 
+                /Driven by your personal tolerance for complexity 
+                /A feature that may be lost in some gui editor built over the top
+            /Fragments of knowledge
+                /Useful for sharing
+            /Helps me to reflect honestly about what I know
+                /The act of trying to expand on a topic //TODO: improve
+            /Is Decentralised
+                /No platform
+                /One of my goals was decentralisation 
+                    /I thought that meant, mobile and desktop apps  
+                    /That felt like a bigger task
+                    /I did not want to build and maintain a suite of apps 
+                    /Sharing
+                        /Copy and paste an abstraction into an email. 
+                        /Create a gist
+            /Is Lean
+                /Exponentially reduced technical scope
+                /Uses what is available
+                    /Text editors
+                        /To model data
+                    /Version control Repositories    
+                        /To Persist
+                        /To Version
+                        /To Share
+                        /To Collaborate
+                    /Idioms
+                        /Drawn from Software engineering
+                /A useful product could be released in a month
+                /Allowed me to leap forward in experimentation
+                /My focus on platform was /Bike Shedding~ and not 
+                    addressing the problem.
+                /Code enabled immediate innovation.              
+    
+            /Allows Partial Completeness
+            /Can 
+                /model structured topics like programming more concisely than natural language
+            /Can // This is repeated here to remind me that a repeated abstraction is valid
+                /model more natural language topics
+            /More // This shows a more idiomatic form where instead of repeating "/Can", you should use structure
+                /lightweight... // Some way to handle multiple cases
+                /Personal
+                    .../A Wiki
+            /As a programmer it is a familiar paradigm
+                /While documenting knowledge, the way it is organised at first can be very fragmented or awkward
+                    /May be difficult to identify the right context for a topic 
+                        /You may be dealing with multiple dimensions of a topic at the same time 
+                        /This may reflect your lack of understanding of the topic 
+                        /Like code, just put it where it feels right and over time 
+                            refactor to better abstractions
+
+
+                /Refactoring feels natural
+                    /Information is in chunks 
+                /A convention that balances expressive with accuracy and consision
+                /Patterns and practices will emerge
+                /Does not promote literary styles and conventions
+                    /At some level has a more bullet point feel
+                    /Dont make me think
+                    /Fine grained structure simplifies instead of compicating
+            /As a programmer it is a useful reference 
+                /When learning some new tech, it is useful to note many details such as shell commands
+                    /For reference 
+                        /Some commands we may not use so often and it is easy to forget them.
+                            /Better than google
+                                /If you record the commands as you learn them
+                                /your profile can contain the concise information in the way you structured it for you.
+                    /For learning
+                        /I find the act of writing notes on a topic help me to memorise that topic. If it does not stick, I can 
+                            come back and reference it.
+            /Encourages introspection and consideration
+            /Knowledge aquisition involves refactoring 
+                /Growing knowledge of a subject is similar to growing a program. 
+                    /Growing a program is growing knowledge of the problem space the application is intended to solve some problem in.
+            /An application or database is the wrong format
+                /Schema belongs to the user.
+            /Why do we take notes?
+                /To help us to assimilate
+                /To stop us forgetting
+                    /To record that flash of inspiration
+                        /fast and expressive format to record
+                /To Share
+                /To Compare
+                
+        
+        /Objectives
+            /Inclusive of the whole individual
+                /Fine grained privacy
+                /Profiles
+                    /Collections of /Abstractions~ 
+            /Is More Agile
+                /Reduced formality
+                /DRY
+                /Facilitates Collaboration
+                    /Can act like a Wiki by merging or replacing abstractions
+                        /Problem to solve
+                            /Apps like this may emerge
+            /Useful to the profile owner
+            /At some stage, large organisations will want to audit capabilities. 
+                /How will they respond to that need?
+                    /They may respond with a survey, or build an app, or go around asking people.
+                        /That has two impacts
+                            /It will result in diverse forms of data. Lack of standardisation.
+                            /Data owned by the company for the benefit of the org. User has little stake in it.
+                                They may have to repeat that exercise in some other context. When they move to another 
+                                company for example. If each user owned and maintained their own profile, then this is 
+                                surely to the advantage of everyone. 
+            /Decentralised 
+                /Tends to prevent market capture by network effect
+            /Refactoring
+                /Abstractions
+                    /As knowledge increases, refactor to reflect new understanding
+                /Value iteration toward accuracy
+                    /Start sloppy. Just get it down. Iteration 1
+                    /As knowledge increases, refactor to improve accuracy
+            /Facilitate Consensus
+            /Value Diversity            
+            /Accurate
+                /Tired of getting emails for Java developer and C# jobs.
+                /Semantically Accurate 
+                
+                
+
+            
+            /Merging
+            
+            
+
+        /Impacts
+            /A shared system of record versioned over time.
+                /Version control enables establishing origin
+                    /Supports and encourages originality
+                    
+                        /New business models may emerge to deal with rights and royalties
+            /ML Friendly
+                /Promotes Sematic Accuracy
+                    /Abstractions are Just a URI with data
+            /Social Knowledge Sharing
+                /Follow an expert or friend
+                /In a similar way that you might follow a hashtag on twitter
+                /Merge Abstractions from elsewhere into your profile
+                    /This can be credited and marked as a reference
+                    /The owner is aware that his abstraction has been merged in 
+            /Facilitate Collaboration
+            /Peer review
+            /Inclusive    
+            /Enables innovation 
+                /Reduces the overhead to table stakes because of network effect
+            /Consumer analytics
+            /Sfl provides the tools for modelling capability
+                    
+            /Enables iteration toward accurate expression
+            /Reduce Fragmentation
+                /One repository
+                    /External Applications do not store your data, they access it.
+                    /Authenticate with github, application has access to your skill profile
+
+            
+
+        /Bullet Reference
+            /A Reference to a bullet
+            {
+                
+                such as a body of text.
+
+                Given the term "API" in some body of text, there should be some 
+                way to reference the specific instance of API that the user means.
+
+                For example, given the following skills,
+                    
+                    /IT/API
+                    /IT/Containerisation/Orchestration/Kubernetes/API
+                    /MyOrg/Products/API
+
+                These are three distinct topics.
+
+                One is the high level concept of an application programmer interface.
+                The other is a specifc API instance
+
+                Given the following Examples
+
+                /My Org/API 
+
+                /Some Abstraction~~ // Finds the closest matching label
+
+                
+
+            }
+            
+        /Intention
+            /\// TODO: Something
+                /May want to learn more and mark it as so.
+                /May be given a profile to learn by some external party.
+                /May want to come back later to refactor
+                /Internal facing only
+            /Goals
+        /Interest
+            /Deprecated
+        /Capability
+        /Abstraction 
+            aka: Bullet
+            /Is an instance of a skill uri "/SomeSkill" in a SkillFL profile
+            /Can be referenced accurately
+                /Has a line number built in to the IDE
+                /Is a URI
+            
+        /Namespaces
+        /The forward slash
+            /Identifies a word or phrase as a topic
+        /Nesting
+            /Describes the relationship of the bullet to the bullets 
+        /Sharing
+
+        /Fragment
+            /A group od one of more concepts 
+            /Reflects the common phrase
+                /The common phrase
+                    /A Fragment of Knowledge
+        
+        /No Concept of Visual Style
+
+        /Escaping Characters
+            /Escaping in a label
+                /Examples
+                    /O\(log\(n\)\) (logarithmic time)
+                    /"O(log(n))" (logarithmic time)
+                    /\/root
+                    /"/root"

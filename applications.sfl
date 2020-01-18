@@ -1,0 +1,23 @@
+/SkillFL
+    /Application Ideas
+        /Fresher 
+        {
+            Today, while I was searching through some of my profile I spotted the term Bike Shedding.
+
+            ~/Bike Shedding: is a useful concept that I had completely forgotten about. This chance 
+            encounter prompted me to recall the concept. That was useful. 
+
+            That led me to an idea for a simple app. An app that picks topics based on some heuristic 
+            and prompts the user to remember it. It could be configured to prompt at intervals that the 
+            user chooses. It can be configured to select from particular topics etc.
+
+            In the case where the prompted topic is not useful to the user because it is no longer of interest 
+            or because they know it well, the user can respond in different ways. 
+            
+            A user can respond by answering questions about the topic. These may be test questions intended to 
+            validate the users capability. The may be qualitative questions like interest level.
+
+            In this way a user has a dialogue with their knowledge profile.
+            
+            This could be useful during revision for example for a student.
+        }

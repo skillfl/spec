@@ -1,0 +1,321 @@
+/Issues with spaces to define scope 
+    /Using whitespace to define structure is good for the user 
+    /When serialising to the network the spaces must be retained 
+    /Parentheses allow definition of scope
+    /Whitespace can be removed
+
+
+
+// Design goals
+// - Useful
+// - Truly readable
+
+/Computer programming/languages {
+
+    Go
+    C#
+    Action script
+    Objective C
+    R
+    Fortran
+    Java
+    Paython
+    Javascript
+
+}
+
+// In the case below it is more to type when enumerating skills than
+// simply the return case. It is less readable too.
+/Computer programming/languages {
+    Go {}
+    C# {}
+    Action script {}
+    Objective C {}
+    R {}
+    Fortran {}
+    Java {}
+    Paython {}
+    Javascript {}
+}
+
+// Commas ?
+/Computer programming languages {
+    Go,
+    C#,
+    Action script,
+    Objective C,
+    R,
+    Fortran,
+    Java,
+    Paython,
+    Javascript,
+}
+
+//////////////////////////////////////////// 
+// Try with a more complex skillset
+
+// With parentheses
+
+/Computer programming languages/Go { 
+    Effective Go {
+        https://golang.org/doc/effective_go.html
+        Formatting { 
+            https://golang.org/doc/effective_go.html#formatting }   
+        Commentary { 
+            https://golang.org/doc/effective_go.html#commentary }
+            // Here names is incorrectly indented
+            // This is valid but not readable. fmt would correct formatting errors like this.
+            // Such a formatting error may go unnotices without parens and then the skill 
+            // gets pushed into the wrong context. This is another reason why parens are good.
+            // the scope of a skillset is explicit and can be seen with minimal ide support
+            // such as vscode or sublime. 
+            Names { 
+            https://golang.org/doc/effective_go.html#names 
+            Package names { 
+                https://golang.org/doc/effective_go.html#package-names }
+            Getters { 
+                https://golang.org/doc/effective_go.html#Getters }
+            Interface Names { 
+                https://golang.org/doc/effective_go.html#interface-names }
+            MixedCaps { 
+                https://golang.org/doc/effective_go.html#mixed-caps }
+        }
+        Semicolons { https://golang.org/doc/effective_go.html#semicolons }
+        Control Structures {
+            If { https://golang.org/doc/effective_go.html#if }
+            Redeclaration & reasssignment { https://golang.org/doc/effective_go.html#redeclaration } 
+            For { https://golang.org/doc/effective_go.html#for }
+            Switch { https://golang.org/doc/effective_go.html#switch }
+            Type switch { https://golang.org/doc/effective_go.html#type_switch }
+        }
+        Functions { https://golang.org/doc/effective_go.html#functions
+            Multiple return values { https://golang.org/doc/effective_go.html#multiple-returns }
+            Named result parameter { https://golang.org/doc/effective_go.html#named-results }
+            Defer { https://golang.org/doc/effective_go.html#defer }
+                
+        }    
+        Data { 
+            https://golang.org/doc/effective_go.html#data 
+            Allocations with new { 
+                https://golang.org/doc/effective_go.html#allocation_new }
+            Constructors & Composite literals { 
+                https://golang.org/doc/effective_go.html#composite_literals }
+            Allocation with make { 
+                https://golang.org/doc/effective_go.html#allocation_make }
+            Arrays { 
+                https://golang.org/doc/effective_go.html#arrays }
+            Slices { 
+                https://golang.org/doc/effective_go.html#slices }
+            Two dimensional slices { 
+                https://golang.org/doc/effective_go.html#two_dimensional_slices }
+            Maps { 
+                https://golang.org/doc/effective_go.html#maps }
+            Printing { 
+                https://golang.org/doc/effective_go.html#printing }
+            Append { 
+                https://golang.org/doc/effective_go.html#append }
+        }          
+        Initialisation { 
+            https://golang.org/doc/effective_go.html#initialization
+            Constants { 
+                https://golang.org/doc/effective_go.html#constants 
+            }
+            Variables {
+                https://golang.org/doc/effective_go.html#variables
+            }
+            The init function {
+                https://golang.org/doc/effective_go.html#init 
+            }    
+        }
+        Methods { https://golang.org/doc/effective_go.html#methods
+            Pointers vs values {
+                https://golang.org/doc/effective_go.html#pointers_vs_values
+            }
+        }   
+        Interfaces and other types {
+            https://golang.org/doc/effective_go.html#interfaces_and_types
+            Interfaces {
+                https://golang.org/doc/effective_go.html#interfaces 
+            }
+            Conversions {
+                https://golang.org/doc/effective_go.html#conversions
+            }
+            Interface conversions and type assertions {
+                https://golang.org/doc/effective_go.html#interface_conversions
+            }
+            Generality {
+                https://golang.org/doc/effective_go.html#generality
+            }
+            Interfaces and methods {
+                https://golang.org/doc/effective_go.html#interface_methods
+            }
+        }
+            
+        The blank identifier {
+            https://golang.org/doc/effective_go.html#blank
+            The blank identifier in multiple assignment
+                https://golang.org/doc/effective_go.html#blank_assign
+            Unused imports and variables
+                https://golang.org/doc/effective_go.html#blank_unused
+            Import for side effect 
+                https://golang.org/doc/effective_go.html#blank_import
+            Interface checks
+                https://golang.org/doc/effective_go.html#blank_implements
+        
+        }
+        Embedding { 
+            https://golang.org/doc/effective_go.html#embedding 
+        }    
+        Concurrency {
+            https://golang.org/doc/effective_go.html#concurrency
+            Share by communicating
+                https://golang.org/doc/effective_go.html#sharing
+                "lorem ipsum dolor sit amet."
+            Goroutines
+                https://golang.org/doc/effective_go.html#goroutines
+            Channels
+                https://golang.org/doc/effective_go.html#channels
+            Channels of channels
+                https://golang.org/doc/effective_go.html#chan_of_chan
+            Parallelization
+                https://golang.org/doc/effective_go.html#parallel
+            A leaky buffer
+                https://golang.org/doc/effective_go.html#leaky_buffer
+        }
+        Errors {
+            https://golang.org/doc/effective_go.html#errors
+            Panic {
+                https://golang.org/doc/effective_go.html#panic
+            }
+            Recover {
+                https://golang.org/doc/effective_go.html#recover
+            }
+        }  
+        A web server { https://golang.org/doc/effective_go.html#web_server }
+    }
+}
+
+//////////////////////////////////////////// 
+// Without parentheses
+        
+/Computer Programming/Languages/Go
+    Effective Go
+    aka: Go fundamentals
+    https://golang.org/doc/effective_go.html
+    Formatting
+        https://golang.org/doc/effective_go.html#formatting
+    Commentary
+        https://golang.org/doc/effective_go.html#commentary
+    Names
+        https://golang.org/doc/effective_go.html#names
+        Package names
+            https://golang.org/doc/effective_go.html#package-names
+        Getters
+            https://golang.org/doc/effective_go.html#Getters
+        Interface Names
+            https://golang.org/doc/effective_go.html#interface-names
+        MixedCaps
+            https://golang.org/doc/effective_go.html#mixed-caps 
+    Semicolons
+        https://golang.org/doc/effective_go.html#semicolons
+    Control Structures
+        If
+            https://golang.org/doc/effective_go.html#if
+        Redeclaration & reasssignment
+            https://golang.org/doc/effective_go.html#redeclaration
+        For
+            https://golang.org/doc/effective_go.html#for
+        Switch
+            https://golang.org/doc/effective_go.html#switch
+        Type switch
+            https://golang.org/doc/effective_go.html#type_switch
+    Functions
+        https://golang.org/doc/effective_go.html#functions
+        Multiple return values
+            https://golang.org/doc/effective_go.html#multiple-returns
+        Named result parameter
+            https://golang.org/doc/effective_go.html#named-results
+        Defer
+            https://golang.org/doc/effective_go.html#defer
+    Data 
+        https://golang.org/doc/effective_go.html#data
+        Allocations with new
+            https://golang.org/doc/effective_go.html#allocation_new
+        Constructors & Composite literals
+            https://golang.org/doc/effective_go.html#composite_literals
+        Allocation with make
+            https://golang.org/doc/effective_go.html#allocation_make
+        Arrays
+            https://golang.org/doc/effective_go.html#arrays
+        Slices
+            https://golang.org/doc/effective_go.html#slices
+        Two dimensional slices
+            https://golang.org/doc/effective_go.html#two_dimensional_slices
+        Maps 
+            https://golang.org/doc/effective_go.html#maps
+        Printing
+            https://golang.org/doc/effective_go.html#printing
+        Append
+            https://golang.org/doc/effective_go.html#append
+    Initialisation
+        https://golang.org/doc/effective_go.html#initialization
+        Constants
+            https://golang.org/doc/effective_go.html#constants
+        Variables
+            https://golang.org/doc/effective_go.html#variables
+        The init function
+            https://golang.org/doc/effective_go.html#init
+    Methods
+        https://golang.org/doc/effective_go.html#methods
+        Pointers vs values
+            https://golang.org/doc/effective_go.html#pointers_vs_values
+    Interfaces and other types
+        https://golang.org/doc/effective_go.html#interfaces_and_types
+        Interfaces
+            https://golang.org/doc/effective_go.html#interfaces
+        Conversions
+            https://golang.org/doc/effective_go.html#conversions
+        Interface conversions and type assertions
+            https://golang.org/doc/effective_go.html#interface_conversions
+        Generality
+            https://golang.org/doc/effective_go.html#generality
+        Interfaces and methods 
+            https://golang.org/doc/effective_go.html#interface_methods
+    The blank identifier
+        https://golang.org/doc/effective_go.html#blank
+        The blank identifier in multiple assignment
+            https://golang.org/doc/effective_go.html#blank_assign
+        Unused imports and variables
+            https://golang.org/doc/effective_go.html#blank_unused
+        Import for side effect 
+            https://golang.org/doc/effective_go.html#blank_import
+        Interface checks
+            https://golang.org/doc/effective_go.html#blank_implements
+    Embedding
+        https://golang.org/doc/effective_go.html#embedding
+    Concurrency
+        https://golang.org/doc/effective_go.html#concurrency
+        Share by communicating
+            https://golang.org/doc/effective_go.html#sharing
+            "lorem ipsum dolor sit amet."
+        Goroutines
+            https://golang.org/doc/effective_go.html#goroutines
+        Channels
+            https://golang.org/doc/effective_go.html#channels
+        Channels of channels
+            https://golang.org/doc/effective_go.html#chan_of_chan
+        Parallelization
+            https://golang.org/doc/effective_go.html#parallel
+        A leaky buffer
+            https://golang.org/doc/effective_go.html#leaky_buffer
+    Errors
+        https://golang.org/doc/effective_go.html#errors
+        Panic
+            https://golang.org/doc/effective_go.html#panic
+        Recover
+            https://golang.org/doc/effective_go.html#recover
+    A web server
+            https://golang.org/doc/effective_go.html#web_server
+
+
+        

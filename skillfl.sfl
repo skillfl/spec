@@ -1,0 +1,539 @@
+
+// All of the following mean the same thing.
+
+/English Language
+  Grammar
+    Psudonyms
+    Synonyms
+    Nouns
+    Proper Nouns 
+    Adjectives
+    Adverbs
+    Subordinate Clauses
+
+/Lean Startup
+  MVP
+  MMP
+
+/Bike Shedding
+
+
+
+/Geek Code
+  https://en.wikipedia.org/wiki/Geek_Code
+  "A whimsical markup scheme for describing the geeky apspects of a person in the 
+  context of linked data."
+
+/Dog Fooding
+
+/Yak Shaving
+
+/Problem Solving 
+  Problem Spaces
+
+
+/Blockchain
+  The trust gap
+
+
+/Behavioural economics
+  Cognitive Bias
+
+/Service Design
+
+
+/Government Digital Service
+
+/Gameplay Theory
+  Cognitive Psychology 
+
+/Human Computer Interaction
+  /Cognitive Psygchology
+
+
+
+
+Skills:
+  name: Programming Languages
+      Go
+      Objective C
+      Javascript
+      Node JS
+      Fortran
+      Assembly
+      Turbo-Pascal
+      C
+      C++
+      Haskell
+      Kotlin
+
+
+
+    Python
+    C#
+    Java
+    Fortran
+    C++
+    C
+    Pascal
+    Turbo Pascal
+    Haskell
+  Functional Programming
+  Procedural Programming
+  Object Oriented Programming
+  Principles & Practices
+    RDD
+    XP
+      Pair Programming
+      TDD
+        Test First
+        Red Green Refactor
+        AAA
+        nUnit
+        Testify
+    BDD
+      Three Amigos
+    IOS
+      Objective C
+
+  SkillProfile:
+    Context:
+      Computer Programming
+        Frameworks
+          jquery
+          ASP.NET
+          Serverless
+          Apex
+          Play
+          Languages
+          OpenGL
+          WebGL
+
+  Computer Programming:
+    Languages:
+      Go:
+        c: [HIGH, MED, HIGH, MED]
+      C#
+      Objective C
+      Javascript
+      Node JS
+      Fortran
+      Assembly
+      Turbo-Pascal
+      C
+      C++
+      Haskell
+      Kotlin
+
+
+  What does it mean that the topic is modified.
+  That it is substantially different enough that it warrants
+  - Documentation
+  - Guidance
+  - Specific Training
+  - If you care enough to provide some disambiguation then it can be considered a new topic
+  *** Important business rule for creation of topic
+  - It would be semantically correct to call it a sub definition
+  - Is there also a case where even though the topic has the same
+  name
+
+  Cases
+  - unmodified
+  - modified
+  - different
+
+Topic:
+  Name: Architecture
+  Root: /Software Development/Agile/Architecture
+    DevOps
+    Continuous Testing
+    Continuous Delivery
+      Architecting for Continuous Delivery
+      Adopting Continuous Delivery
+    Architectural Design Patterns
+      CQS
+      CQRS
+      Hexagonal Architecture
+        aka: Onion Architecture
+      Microservices Architecture
+
+      Monolithic Architecture
+          aka: Monolith
+    Architecture Anti Patterns
+      Big Ball of Mud
+      Monolith
+    Communicating Intent
+      C4 Model
+      Architectural Decision Records
+    Evolutionary Architecture
+      Equilibrium
+      Guided Incremental Change
+      Architecting for change
+      Non Functional Requirements
+      Princples & Practices
+        Value Change as a first principle
+        Avoid Premature Optimisation
+        No Silver Bullets
+
+
+/Spoken Languages
+  English
+  French
+  Italian
+
+  Russian
+    c:  MED
+    i:  LOW
+  Chinese
+    c: LOW
+    i: HIGH
+
+    
+/Pharmatcuitical/Digital Innovation
+ Technical Strategy Coaching
+ Development Practices
+ Architecture
+ Team Leadership
+
+
+
+Software Development/Agile/Coaching
+
+
+Project Managment
+  Tools
+    MS Projects
+    JIRA
+    Mingle
+    Trello
+
+
+Computer Games
+  Tools
+    Development Tools
+      Unity
+      PS2 SDK
+  Games
+    Global Domination
+    WipeOut
+    Age of Empires
+    World of Warcraft
+  Design
+    Level Design
+    Gameplay
+      Theory
+        Enjoyment of Playing Computer Games
+          The Enjoyment of Interaction
+        Creating Challenges in Computer Games
+        The challenges of Interaction
+    Visual Design
+    Character Design
+    Packaging Design
+
+
+Skillfl::Profile:
+/Yoono.it/Technology/Web Developer/Job Spec
+  Full Stack Develoment
+  Go
+    GRPC
+    TDD
+  Kubernetes
+    Deploying Applications to Kubernetes
+    Systems Administration
+      Installation
+      Maintenance
+      Support
+
+
+/Application Software Development/
+  Programming
+
+
+/Principle
+  "A propisition or value that is a guide for behaviour".
+
+/Tools
+
+
+
+
+
+
+
+/Solid
+
+/Software Development/
+  Software Engineering
+    Design Patterns
+    Design Patterns
+    Principles & Practices
+      Design Patterns
+      SOLID
+      DRY
+      YAGNI
+
+
+
+
+/Microsoft/Products/Software Development
+  .NET
+    .NET
+      .NET 1.0
+        derivesfrom: .NET
+      .NET 2.0
+        derivesfrom: .NET
+      .NET 3.0
+      .NET 4.0
+        .NET 4.5
+
+
+  /Microsoft/Products/Cloud/Azure
+    EventGrid
+
+
+
+  /Software Development/
+  Cloud
+  AWS
+  CloudFormation
+  Enterprise Architecture
+  Solution Architecture
+  Lambda
+  Databases
+    DynamoDB
+    RDS
+    Aurorua
+    GCP
+    Digital Ocean
+    Azure
+
+eAssessment
+  Interoperability
+    Standards
+      QTI
+
+  Databases
+    AeroSpike : Low latency key value store
+
+
+  Software Development/Frameworks
+  Simgle Page Application Frameworks
+  ReactJS
+  url: www.react.org
+  VUE.JS
+  url: www.vue.com
+  AngularJS
+  url: www.google.com/angular
+  versions:
+    AngularJS 1
+    AngularJS 2
+  Toold
+
+
+  Databases
+    SQL Server
+    SQL Server 2008
+    SQL Server 2012
+
+
+  ORM
+    NHibernate
+    Hibernate
+    Entity Framework
+    SubSoninc
+    .NET
+
+  Patterns & Practices
+    Data Access
+    Repository Pattern
+    Active Record
+  ORM
+    Subsonic
+    NHibernate
+    Entity Framework
+  ASP.NET 1
+  WebForms
+  requires:
+    Page LyfeCycle
+    CodeBehind
+
+  .NET Core
+  ASP.NET 3
+  Entity Framework
+  ASP.NET MVC 3
+  Razor Views
+  ASP.NET MVC 4
+  .JAVA
+
+  /Agile/Software Delivery
+  Serverless
+  Serverless Framework
+  type: /Software Development/Frameworks
+  Software Engineering
+  Mentoring/Software Engineering
+  Consulting/SAFe Agile/Continuous Delivery
+  Continuous Improvement
+  Continuous Testing
+  Psychological Safety
+  Release on Demand
+  Lean
+  UX
+  Flow
+  Moving from Outputs to Outcomes
+  Moving from projects to products
+  Programming
+  Languages
+  Kotlin
+  C++
+  C
+  Go
+  requires
+  Idioms
+  Error Handling
+  Collections
+  Slices & Arrays
+  Concurrency
+  Concurrency Patterns
+
+  /Agile/Software Delivery/
+  Software Engineering
+  Serverless
+
+  Containterisation
+  Docker
+  Kubernetes
+  Version Control
+  Tools
+  GitLab
+  url: www.gitlab.com
+  Github
+  url: www.github.com
+  Git
+  Merging
+  Pushing
+  Pulling
+  Cloning
+  Subversion
+  TFS
+  Continuous Integration
+  Trunk Bassed Development
+  Gitflow
+  Application Architecture
+  Application Testing
+  Manual Testing
+  Automated Testing
+  TDD
+  BDD
+
+  DevOps
+  Continuous Delivery
+  Infrastructure as Code
+  Cloudformation
+  Ansible
+  Terraform
+  DevOps Metrics *
+  Continuous Integration *
+  CI/CD PipeLines
+  DevOps Adoption *
+  Continuous Improvement
+  aka: Kaizen
+  Architecture
+  DDD
+  Strategic Software Development
+  Non Functional Requirements
+  Architecural Patterns & Practices
+
+  
+  Domain Modelling
+  DDD
+  Bounded Contexts
+  Aggregate Design
+  N-Tier
+  Hexagonal
+
+
+  /Software Development/Agile/Agile Project Management/Scrum
+  Releases
+  Release Planning | # | means topic is modified by the context
+  Change Management |
+  Sprints
+  Agile Retrospectives
+  Open Mic Retrospectives
+  Lean Coffee Retrospectives
+  Start Stop Continue Retrospectives
+  Agile Sprint Planning
+  Agile Estimation
+  Planning Poker
+  Cone of Uncertainty
+  \\#NoEstimates
+  Backlog Management
+  User Stories
+  Writing User Stories
+  Screenplay Pattern
+ic: MED
+  Backlog Grooming
+  Blockchain
+  Applications
+  Crypto Currency
+  Smart Contracts
+  Business
+  Legal
+  Technical
+
+  AcmeCo/Software Delivery/Agile/Agile Software Development/
+  Pair Programming
+  Agile Software Testing
+ic: UPFAST HIGH 3 MED 2
+Contract Testing:
+  rt: /Software Delivery/XP/Testing/Contract Testing
+  i: HIGH HIGH
+  Consumer Driven Contract Testing
+  Pact Testing
+  TDD
+interest: HIGH 10
+capability: UPFAST MED 4 HIGH 5
+  Principles & Practices
+  AAA
+capability: HIGH 7
+interest: HIGH 7
+  Mocking Stubbing & Faking
+ic: HIGH MED 3 HIGH 7
+  Red Green Refactor
+  TDD Patterns
+ic: HIGH MED 3 HIGH 7
+  BDD
+  Tools
+  Gherkin
+  Specifications
+  HipTest
+  Principles & Practices
+  Three Amigos
+  Five Whys
+  AcmeCo/Software Delivery/Agile/Agile Project Management/Scrum
+  Releases
+  AcmeCo Release Financing
+  AcmeCo Release Planning
+  AcmeCo Change Management Process
+  AcmeCo UAT Testing
+  AcmeCo Deployment
+  AcmeCo Operations
+  Sprints
+  Sprint Demos
+  Agile Retrospectives
+  ./Open Mic Retrospectives | .../Open Mic Retrospectives #Open Mic Retrospectives is Unambiguous root
+  ./Lean Coffee Retrospectives | ../Lean Coffee Retrospectives
+  ./Start Stop Continue Retrospectives | ../Start Stop Continue Retrospectives
+  ./Agile Sprint Planning
+  ./Agile Estimation
+  ./Agile Estimation Techniques |
+  ./Planning Poker
+  ./Backlogs
+  ./User Stories
+  ./Backlog Grooming
+
+  Agile Project Management/Kanban
+ic: MED 6
+  Agile Project Management/SAFe
+ic: HIGH 6
+  Agile Project Management/LeSS
+

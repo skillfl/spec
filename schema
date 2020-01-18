@@ -1,0 +1,58 @@
+schema
+
+Skill
+	Topic 
+	Capability {
+
+
+
+	}
+
+
+Interest
+
+
+
+Skill {
+	Topic: /ASP.NET
+	Capabiliy {
+		{2003, low}, 
+		{2004, med}, 
+		{2013, high}, 
+		{2019, low},
+	}]
+	Interest {
+		{2003, HIGH}, 
+		{2004, HIGH}, 
+		{2013, LOW}, 
+		{2019, LOW},
+	}]
+	Opinions {
+		{
+			Heading: "Heard its got better lately"
+			Body: "Popular with enterprise. C# is great. Not my cup of tea anymore."
+			Tags:  ["#sometag", "#someothertag"]
+			Date: "22/02/19"
+		},
+		{
+			Heading: "Heard its got better lately"
+			Body: "Popular with enterprise. C# is great. Not my cup of tea anymore."
+			Tags:  ["#sometag", "#someothertag"]
+			Date: "22/02/19"
+		}
+	}
+}
+
+
+
+// Topic type schema
+
+Framework {
+	
+}
+
+
+
+
+
+AreaOfResponsibility?
